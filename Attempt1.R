@@ -1,18 +1,27 @@
 library(readr)
 library(vegan)
-Datasets_Tele01_Elas02 <- read_csv("Datasets-Tele01-Elas02.csv")
-View(Datasets_Tele01_Elas02)
+#import Data 
+Fish <- read_csv("Data/Datasets-Tele01-Elas02.csv")
+Chem18 <- read_csv("Data/Waterchem2018.csv")
+Nutrients18 <- read_csv("Data/Nutrients2018.csv")
+Pesticides18 <- read_csv("Data/Pesticides2018.csv")
+Sediments18 <- read_csv("Data/Sediment2018.csv")
+Chem20 <- read_csv("Data/Waterchem2020.csv")
+Nutrients20 <- read_csv("Data/Nutrients2020.csv")
+Pesticides20 <- read_csv("Data/Pesticides2020.csv")
+Sediments20 <- read_csv("Data/Sediments2020.csv")
 
-Fish=Datasets_Tele01_Elas02
+#SHOULD I TRANSPOSE THE EDNA MATRIX? 
+#FishT=t(Fish) # transpose matrix
+#CAN I STILL USE THE ANALYSES WE DID THE FIRST TIME- SMTH WITH COLS
+
 head(Fish)
 Fish=Fish[,-c(1:11)] #drop first 11 columns
 tail(Fish) #shows last few rows
-FishT=t(Fish) # transpose matrix 
 View(Fish)
-
 rowSums(Fish) #weird distribution- binomial distribution 
 
-#BELOW PROBS DOESN'T WORK AS TRANSPOSED
+#BELOW PROBS DOESN'T WORK if TRANSPOSED??
 source("gsindex.R") #knows about function now
 #species index for entire dataset
 gsindex(rowSums(Fish)) #234 species. suggests missing data as gsindex provides estimated sp pool size. assumes variation in abundace unlike shannons. but not published so don't use
@@ -71,14 +80,6 @@ sd(log(r)) #well behaved data
 plot(g,h) #linear but flattens out bc limited by h- loose the variation
 
 
-#run PCA on physio chem properties later
-
-#import indepndants
-Chem18 <- read_csv("2018_Data/Waterchem.csv")
-Nutrients18 <- read_csv("2018_Data/Nutrients.csv")
-Pesticides18 <- read_csv("2018_Data/Pesticides.csv")
-View(Pesticides18)
-Sediments18 <- read_csv("2018_Data/Sediment.csv")
 
 
 sum(is.na(Chem18))/length(unlist(Chem18))
@@ -160,29 +161,5 @@ summary(lm(log(Fish)~Sed18FA))
 
 
 
-
-
-
-Enviro18<-data.frame(Nutrients18[,-(1:2)],Pesticides18[,-(1:2)]) #remove first two rows-not numeric
-is.numeric(Enviro18) 
-head(Enviro18) 
-
-
-cor(na.omit(Enviro18))
-plot(Enviro18[,1],Enviro18[,2])
-Enviro18[,1]
-Enviro18[10,]
-Enviro18[11,]
-Enviro18[5:10,]
-zero=array(dim = ncol(Enviro18),data=0)
-zero
-for(i in 1:ncol(Enviro18))
-zero[i]=(length(table(Enviro18[,i]))) 
-#do not run this line again
-Enviro18=Enviro18[,zero >1] #only retain collumns for which there are multiple values
-
-
-factanal(na.omit(Enviro18),factors=3)
-cor(na.omit(Enviro18))
 
 
