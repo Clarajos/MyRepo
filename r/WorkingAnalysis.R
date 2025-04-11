@@ -1,7 +1,7 @@
 library(readr)
 library(vegan)
 #import Data 
-Fish <- read_csv("Data/Datasets-Tele01-Elas02.csv")
+Fish <- read_csv("Data/eDNA_Data.csv")
 Chem18 <- read_csv("Data/Waterchem2018.csv")
 Nutrients18 <- read_csv("Data/Nutrients2018.csv")
 Pesticides18 <- read_csv("Data/Pesticides2018.csv")
