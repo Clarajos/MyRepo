@@ -231,3 +231,5 @@ summary(lm(B[,1]~Chem18FA+as.factor(SitesSeason)))
 summary(lm(B[,2]~Chem18FA+as.factor(SitesSeason)))
 
 
+
+
