@@ -1,35 +1,35 @@
-Estuary,Sampling site,Total Kjeldahl nitrogen as N,Total Kjeldahl phosphorus as P,Total nitrogen as N,Total organic carbon,Dissolved organic carbon,Ammonium nitrogen as N,Oxidised nitrogen as N,Phosphate phosphorus as P,Chlorophyll FieldMeasure mg/m3
-Gregory River,GR_S01,7.4,1.19,7.4,3.7,3.1,0.007,0.006,0.014,0.5
-Gregory River,GR_S02,6.99,1.17,6.99,3.2,2.7,0.007,0.002,0.01,0.5
-Gregory River,GR_S03,6.52,1.19,6.52,3,2.7,0.007,0.001,0.006,0.7
-Gregory River,GR_S04,7.18,1.15,7.18,2.6,2,0.007,0.001,0.002,0.5
-Gregory River,GR_S05,6.54,1.14,6.54,2.1,1.4,0.007,0.001,0.001,0.5
-Gregory River,GR_S06,6.36,1.19,6.36,2.6,2.1,0.007,0.003,0.003,0.7
-Gregory River,GR_S07,6.32,1.22,6.32,1.9,1.5,0.012,0.002,0.001,0.5
-Gregory River,GR_S08,6.32,1.18,6.33,2.6,1.6,0.006,0.001,0.001,0.5
-Gregory River,GR_S09,0.29,0.07,0.29,2.2,1.5,0.009,0.002,0.001,0.5
-Gregory River,GR_S10,0.3,0.06,0.3,2.1,1.4,0.008,0.002,0.001,0.5
-Sandy Creek,SC_S01,6.5,1.19,6.51,3.4,1.9,0.009,0.002,0.034,0.8
-Sandy Creek,SC_S02,6.35,1.21,6.35,2.6,1.4,0.008,0.003,0.034,1.9
-Sandy Creek,SC_S03,6.31,1.15,6.31,2,1.3,0.006,0.001,0.026,1.6
-Sandy Creek,SC_S04,6.69,1.16,6.69,1.9,1.2,0.004,0.001,0.018,0.5
-Sandy Creek,SC_S05,6.26,1.13,6.26,1.7,1.1,0.003,0.002,0.02,0.5
-Sandy Creek,SC_S06,6.28,1.12,6.28,2.1,1.2,0.003,0.001,0.018,0.8
-Sandy Creek,SC_S07,6.4,1.15,6.4,1.9,1.1,0.003,0.001,0.003,2.4
-Sandy Creek,SC_S08,6.51,1.26,6.52,2.8,1.6,0.005,0.003,0.034,0.8
-Sandy Creek,SC_S09,6.68,1.13,6.68,1.9,1.1,0.002,0.001,0.016,0.5
-Sandy Creek,SC_S10,6.31,1.18,6.31,1.8,1.2,0.003,0.001,0.008,0.5
-Mackay Harbour,HAR_S01,6.25,1.08,6.25,1.4,0.8,0.009,0.008,0.004,0.5
-Mackay Harbour,HAR_S02,6.18,1.13,6.18,1.4,0.9,0.007,0.003,0.002,0.7
-Mackay Harbour,HAR_S03,6.63,1.13,6.64,1.6,0.9,0.006,0.003,0.001,0.5
-Mackay Harbour,HAR_S04,6.31,1.24,6.32,1.4,0.9,0.026,0.01,0.005,0.5
-St Helen's/Murray Creek,SH_S01,6.5,1.22,6.5,3.4,1.9,0.004,0.001,0.001,0.5
-St Helen's/Murray Creek,SH_S02,6.56,1.2,6.56,3.1,2.2,0.004,0.001,0.001,0.5
-St Helen's/Murray Creek,SH_S03,6.1,1.24,6.1,2.6,1.9,0.004,0.001,0.006,0.5
-St Helen's/Murray Creek,SH_S04,6.64,1.19,6.64,2.4,1.9,0.004,0.001,0.009,0.5
-St Helen's/Murray Creek,SH_S05,6.63,1.18,6.63,2.9,1.7,0.004,0.001,0.007,0.5
-St Helen's/Murray Creek,SH_S06,6.37,1.19,6.37,2.7,1.6,0.005,0.001,0.005,0.5
-St Helen's/Murray Creek,SH_S07,6.79,1.23,6.79,2.8,2.1,0.005,0.001,0.007,0.5
-St Helen's/Murray Creek,SH_S08,6.27,1.21,6.27,2.3,1.6,0.004,0.001,0.005,0.5
-St Helen's/Murray Creek,SH_S09,6.81,1.17,6.81,2,1.4,0.005,0.001,0.003,0.5
-St Helen's/Murray Creek,SH_S10,6.4,1.25,6.4,1.8,1.2,0.006,0.001,0.002,0.5
+Estuary,Year,Sampling site,Total Kjeldahl nitrogen as N,Total Kjeldahl phosphorus as P,Total nitrogen as N,Total organic carbon,Dissolved organic carbon,Ammonium nitrogen as N,Oxidised nitrogen as N,Phosphate phosphorus as P,Chlorophyll FieldMeasure mg/m3
+Gregory River,2018,GR_S01,7.4,1.19,7.4,3.7,3.1,0.007,0.006,0.014,0.5
+Gregory River,2018,GR_S02,6.99,1.17,6.99,3.2,2.7,0.007,0.002,0.01,0.5
+Gregory River,2018,GR_S03,6.52,1.19,6.52,3,2.7,0.007,0.001,0.006,0.7
+Gregory River,2018,GR_S04,7.18,1.15,7.18,2.6,2,0.007,0.001,0.002,0.5
+Gregory River,2018,GR_S05,6.54,1.14,6.54,2.1,1.4,0.007,0.001,0.001,0.5
+Gregory River,2018,GR_S06,6.36,1.19,6.36,2.6,2.1,0.007,0.003,0.003,0.7
+Gregory River,2018,GR_S07,6.32,1.22,6.32,1.9,1.5,0.012,0.002,0.001,0.5
+Gregory River,2018,GR_S08,6.32,1.18,6.33,2.6,1.6,0.006,0.001,0.001,0.5
+Gregory River,2018,GR_S09,0.29,0.07,0.29,2.2,1.5,0.009,0.002,0.001,0.5
+Gregory River,2018,GR_S10,0.3,0.06,0.3,2.1,1.4,0.008,0.002,0.001,0.5
+Sandy Creek,2018,SC_S01,6.5,1.19,6.51,3.4,1.9,0.009,0.002,0.034,0.8
+Sandy Creek,2018,SC_S02,6.35,1.21,6.35,2.6,1.4,0.008,0.003,0.034,1.9
+Sandy Creek,2018,SC_S03,6.31,1.15,6.31,2,1.3,0.006,0.001,0.026,1.6
+Sandy Creek,2018,SC_S04,6.69,1.16,6.69,1.9,1.2,0.004,0.001,0.018,0.5
+Sandy Creek,2018,SC_S05,6.26,1.13,6.26,1.7,1.1,0.003,0.002,0.02,0.5
+Sandy Creek,2018,SC_S06,6.28,1.12,6.28,2.1,1.2,0.003,0.001,0.018,0.8
+Sandy Creek,2018,SC_S07,6.4,1.15,6.4,1.9,1.1,0.003,0.001,0.003,2.4
+Sandy Creek,2018,SC_S08,6.51,1.26,6.52,2.8,1.6,0.005,0.003,0.034,0.8
+Sandy Creek,2018,SC_S09,6.68,1.13,6.68,1.9,1.1,0.002,0.001,0.016,0.5
+Sandy Creek,2018,SC_S10,6.31,1.18,6.31,1.8,1.2,0.003,0.001,0.008,0.5
+Mackay Harbour,2018,HAR_S01,6.25,1.08,6.25,1.4,0.8,0.009,0.008,0.004,0.5
+Mackay Harbour,2018,HAR_S02,6.18,1.13,6.18,1.4,0.9,0.007,0.003,0.002,0.7
+Mackay Harbour,2018,HAR_S03,6.63,1.13,6.64,1.6,0.9,0.006,0.003,0.001,0.5
+Mackay Harbour,2018,HAR_S04,6.31,1.24,6.32,1.4,0.9,0.026,0.01,0.005,0.5
+St Helen's/Murray Creek,2018,SH_S01,6.5,1.22,6.5,3.4,1.9,0.004,0.001,0.001,0.5
+St Helen's/Murray Creek,2018,SH_S02,6.56,1.2,6.56,3.1,2.2,0.004,0.001,0.001,0.5
+St Helen's/Murray Creek,2018,SH_S03,6.1,1.24,6.1,2.6,1.9,0.004,0.001,0.006,0.5
+St Helen's/Murray Creek,2018,SH_S04,6.64,1.19,6.64,2.4,1.9,0.004,0.001,0.009,0.5
+St Helen's/Murray Creek,2018,SH_S05,6.63,1.18,6.63,2.9,1.7,0.004,0.001,0.007,0.5
+St Helen's/Murray Creek,2018,SH_S06,6.37,1.19,6.37,2.7,1.6,0.005,0.001,0.005,0.5
+St Helen's/Murray Creek,2018,SH_S07,6.79,1.23,6.79,2.8,2.1,0.005,0.001,0.007,0.5
+St Helen's/Murray Creek,2018,SH_S08,6.27,1.21,6.27,2.3,1.6,0.004,0.001,0.005,0.5
+St Helen's/Murray Creek,2018,SH_S09,6.81,1.17,6.81,2,1.4,0.005,0.001,0.003,0.5
+St Helen's/Murray Creek,2018,SH_S10,6.4,1.25,6.4,1.8,1.2,0.006,0.001,0.002,0.5
